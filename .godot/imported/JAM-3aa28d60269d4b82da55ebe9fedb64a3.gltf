@@ -1,0 +1,301 @@
+{
+	"asset":{
+		"generator":"Khronos glTF Blender I/O v4.3.47",
+		"version":"2.0"
+	},
+	"extensionsUsed":[
+		"KHR_materials_specular"
+	],
+	"scene":0,
+	"scenes":[
+		{
+			"extras":{
+				"xray_props":{
+					"enable_snapping":false,
+					"use_draw_xray":0
+				},
+				"flip_fluid":{},
+				"flip_fluid_material_library":{
+					"library_path":"C:\\Users\\kaan-\\AppData\\Roaming\\Blender Foundation\\Blender\\4.3\\scripts\\addons\\flip_fluids_addon\\materials\\material_library",
+					"material_list":[
+						{
+							"name":"FF Apple Juice",
+							"description":"",
+							"path":"C:\\Users\\kaan-\\AppData\\Roaming\\Blender Foundation\\Blender\\4.3\\scripts\\addons\\flip_fluids_addon\\materials\\material_library\\surface\\FF Apple Juice.blend",
+							"type":0,
+							"icon_id":1021,
+							"imported_icon_id":1022
+						},
+						{
+							"name":"FF Beer",
+							"description":"",
+							"path":"C:\\Users\\kaan-\\AppData\\Roaming\\Blender Foundation\\Blender\\4.3\\scripts\\addons\\flip_fluids_addon\\materials\\material_library\\surface\\FF Beer.blend",
+							"type":0,
+							"icon_id":1023,
+							"imported_icon_id":1024
+						},
+						{
+							"name":"FF Blood",
+							"description":"",
+							"path":"C:\\Users\\kaan-\\AppData\\Roaming\\Blender Foundation\\Blender\\4.3\\scripts\\addons\\flip_fluids_addon\\materials\\material_library\\surface\\FF Blood.blend",
+							"type":0,
+							"icon_id":1025,
+							"imported_icon_id":1026
+						},
+						{
+							"name":"FF Caramel",
+							"description":"",
+							"path":"C:\\Users\\kaan-\\AppData\\Roaming\\Blender Foundation\\Blender\\4.3\\scripts\\addons\\flip_fluids_addon\\materials\\material_library\\surface\\FF Caramel.blend",
+							"type":0,
+							"icon_id":1027,
+							"imported_icon_id":1028
+						},
+						{
+							"name":"FF Chocolate",
+							"description":"",
+							"path":"C:\\Users\\kaan-\\AppData\\Roaming\\Blender Foundation\\Blender\\4.3\\scripts\\addons\\flip_fluids_addon\\materials\\material_library\\surface\\FF Chocolate.blend",
+							"type":0,
+							"icon_id":1029,
+							"imported_icon_id":1030
+						},
+						{
+							"name":"FF Coffee",
+							"description":"",
+							"path":"C:\\Users\\kaan-\\AppData\\Roaming\\Blender Foundation\\Blender\\4.3\\scripts\\addons\\flip_fluids_addon\\materials\\material_library\\surface\\FF Coffee.blend",
+							"type":0,
+							"icon_id":1031,
+							"imported_icon_id":1032
+						},
+						{
+							"name":"FF Copper",
+							"description":"",
+							"path":"C:\\Users\\kaan-\\AppData\\Roaming\\Blender Foundation\\Blender\\4.3\\scripts\\addons\\flip_fluids_addon\\materials\\material_library\\surface\\FF Copper.blend",
+							"type":0,
+							"icon_id":1033,
+							"imported_icon_id":1034
+						},
+						{
+							"name":"FF Milk",
+							"description":"",
+							"path":"C:\\Users\\kaan-\\AppData\\Roaming\\Blender Foundation\\Blender\\4.3\\scripts\\addons\\flip_fluids_addon\\materials\\material_library\\surface\\FF Milk.blend",
+							"type":0,
+							"icon_id":1035,
+							"imported_icon_id":1036
+						},
+						{
+							"name":"FF Orange Juice",
+							"description":"",
+							"path":"C:\\Users\\kaan-\\AppData\\Roaming\\Blender Foundation\\Blender\\4.3\\scripts\\addons\\flip_fluids_addon\\materials\\material_library\\surface\\FF Orange Juice.blend",
+							"type":0,
+							"icon_id":1037,
+							"imported_icon_id":1038
+						},
+						{
+							"name":"FF Water (clear)",
+							"description":"",
+							"path":"C:\\Users\\kaan-\\AppData\\Roaming\\Blender Foundation\\Blender\\4.3\\scripts\\addons\\flip_fluids_addon\\materials\\material_library\\surface\\FF Water (clear).blend",
+							"type":0,
+							"icon_id":1039,
+							"imported_icon_id":1040
+						},
+						{
+							"name":"FF Water (iced)",
+							"description":"",
+							"path":"C:\\Users\\kaan-\\AppData\\Roaming\\Blender Foundation\\Blender\\4.3\\scripts\\addons\\flip_fluids_addon\\materials\\material_library\\surface\\FF Water (iced).blend",
+							"type":0,
+							"icon_id":1041,
+							"imported_icon_id":1042
+						},
+						{
+							"name":"FF Water (ocean 1)",
+							"description":"",
+							"path":"C:\\Users\\kaan-\\AppData\\Roaming\\Blender Foundation\\Blender\\4.3\\scripts\\addons\\flip_fluids_addon\\materials\\material_library\\surface\\FF Water (ocean 1).blend",
+							"type":0,
+							"icon_id":1043,
+							"imported_icon_id":1044
+						},
+						{
+							"name":"FF Water (ocean 2)",
+							"description":"",
+							"path":"C:\\Users\\kaan-\\AppData\\Roaming\\Blender Foundation\\Blender\\4.3\\scripts\\addons\\flip_fluids_addon\\materials\\material_library\\surface\\FF Water (ocean 2).blend",
+							"type":0,
+							"icon_id":1045,
+							"imported_icon_id":1046
+						},
+						{
+							"name":"FF Water (ocean volumetric)",
+							"description":"",
+							"path":"C:\\Users\\kaan-\\AppData\\Roaming\\Blender Foundation\\Blender\\4.3\\scripts\\addons\\flip_fluids_addon\\materials\\material_library\\surface\\FF Water (ocean volumetric).blend",
+							"type":0,
+							"icon_id":1047,
+							"imported_icon_id":1048
+						},
+						{
+							"name":"FF Wax",
+							"description":"",
+							"path":"C:\\Users\\kaan-\\AppData\\Roaming\\Blender Foundation\\Blender\\4.3\\scripts\\addons\\flip_fluids_addon\\materials\\material_library\\surface\\FF Wax.blend",
+							"type":0,
+							"icon_id":1049,
+							"imported_icon_id":1050
+						},
+						{
+							"name":"FF Wine Red",
+							"description":"",
+							"path":"C:\\Users\\kaan-\\AppData\\Roaming\\Blender Foundation\\Blender\\4.3\\scripts\\addons\\flip_fluids_addon\\materials\\material_library\\surface\\FF Wine Red.blend",
+							"type":0,
+							"icon_id":1051,
+							"imported_icon_id":1052
+						},
+						{
+							"name":"FF Bubble",
+							"description":"",
+							"path":"C:\\Users\\kaan-\\AppData\\Roaming\\Blender Foundation\\Blender\\4.3\\scripts\\addons\\flip_fluids_addon\\materials\\material_library\\whitewater\\FF Bubble.blend",
+							"type":1,
+							"icon_id":1053,
+							"imported_icon_id":1054
+						},
+						{
+							"name":"FF Foam",
+							"description":"",
+							"path":"C:\\Users\\kaan-\\AppData\\Roaming\\Blender Foundation\\Blender\\4.3\\scripts\\addons\\flip_fluids_addon\\materials\\material_library\\whitewater\\FF Foam.blend",
+							"type":1,
+							"icon_id":1055,
+							"imported_icon_id":1056
+						},
+						{
+							"name":"FF Spray",
+							"description":"",
+							"path":"C:\\Users\\kaan-\\AppData\\Roaming\\Blender Foundation\\Blender\\4.3\\scripts\\addons\\flip_fluids_addon\\materials\\material_library\\whitewater\\FF Spray.blend",
+							"type":1,
+							"icon_id":1057,
+							"imported_icon_id":1058
+						}
+					]
+				},
+				"flip_fluid_helper":{
+					"is_auto_frame_load_cmd_operator_running":0
+				},
+				"BSBST_settings":{
+					"preset_object":{},
+					"edit_toggle":0
+				},
+				"uuid":"e8c93ca6-6e1d-4efc-b859-69cc07063ffe",
+				"assets reported":{}
+			},
+			"name":"Scene",
+			"nodes":[
+				0
+			]
+		}
+	],
+	"nodes":[
+		{
+			"extras":{
+				"flip_fluid":{}
+			},
+			"mesh":0,
+			"name":"Cube.001",
+			"scale":[
+				0.34603846073150635,
+				0.34603846073150635,
+				0.34603846073150635
+			],
+			"translation":[
+				0,
+				2.4124252796173096,
+				-0.24381013214588165
+			]
+		}
+	],
+	"materials":[
+		{
+			"doubleSided":true,
+			"extensions":{
+				"KHR_materials_specular":{
+					"specularFactor":0
+				}
+			},
+			"name":"Material.001",
+			"pbrMetallicRoughness":{
+				"baseColorFactor":[
+					1,
+					0.36830610036849976,
+					0.16493695974349976,
+					1
+				],
+				"roughnessFactor":0
+			}
+		}
+	],
+	"meshes":[
+		{
+			"name":"Cube.004",
+			"primitives":[
+				{
+					"attributes":{
+						"POSITION":0,
+						"NORMAL":1
+					},
+					"indices":2,
+					"material":0
+				}
+			]
+		}
+	],
+	"accessors":[
+		{
+			"bufferView":0,
+			"componentType":5126,
+			"count":2695,
+			"max":[
+				5.081460952758789,
+				1.0892863273620605,
+				2.369933605194092
+			],
+			"min":[
+				-5.081460952758789,
+				-15.016985893249512,
+				-0.5036529898643494
+			],
+			"type":"VEC3"
+		},
+		{
+			"bufferView":1,
+			"componentType":5126,
+			"count":2695,
+			"type":"VEC3"
+		},
+		{
+			"bufferView":2,
+			"componentType":5123,
+			"count":3138,
+			"type":"SCALAR"
+		}
+	],
+	"bufferViews":[
+		{
+			"buffer":0,
+			"byteLength":32340,
+			"byteOffset":0,
+			"target":34962
+		},
+		{
+			"buffer":0,
+			"byteLength":32340,
+			"byteOffset":32340,
+			"target":34962
+		},
+		{
+			"buffer":0,
+			"byteLength":6276,
+			"byteOffset":64680,
+			"target":34963
+		}
+	],
+	"buffers":[
+		{
+			"byteLength":70956,
+			"uri":"JAM-3aa28d60269d4b82da55ebe9fedb64a3.bin"
+		}
+	]
+}

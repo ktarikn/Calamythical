@@ -1,0 +1,34 @@
+[gd_scene load_steps=7 format=3 uid="uid://b2kj32jyflnqi"]
+
+[ext_resource type="Script" uid="uid://ivoksltnnvj8" path="res://characterController.gd" id="1_dpccc"]
+[ext_resource type="Shader" uid="uid://dtjtwu6uvgyx2" path="res://shader/outline.gdshader" id="2_3fvxn"]
+[ext_resource type="Shader" uid="uid://2kvvcfvfapxo" path="res://shader/cel-shader-base.gdshader" id="3_yj41y"]
+
+[sub_resource type="ShaderMaterial" id="ShaderMaterial_cs10u"]
+render_priority = 0
+shader = ExtResource("2_3fvxn")
+
+[sub_resource type="ShaderMaterial" id="ShaderMaterial_bry3e"]
+render_priority = 0
+next_pass = SubResource("ShaderMaterial_cs10u")
+shader = ExtResource("3_yj41y")
+shader_parameter/color = Color(0.566162, 0.453123, 0.251433, 1)
+shader_parameter/specular = Color(0.3, 0.3, 0.3, 0.5)
+shader_parameter/fresnel = Color(0.2, 0.2, 0.2, 0.3)
+shader_parameter/uv_scale = Vector2(1, 1)
+shader_parameter/uv_offset = Vector2(0, 0)
+
+[sub_resource type="CapsuleMesh" id="CapsuleMesh_qb3xb"]
+material = SubResource("ShaderMaterial_bry3e")
+
+[node name="Node" type="Node"]
+
+[node name="CharacterBody3D" type="CharacterBody3D" parent="."]
+script = ExtResource("1_dpccc")
+speed = 5.0
+
+[node name="Camera3D" type="Camera3D" parent="CharacterBody3D"]
+
+[node name="MeshInstance3D" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, -3.04386)
+mesh = SubResource("CapsuleMesh_qb3xb")

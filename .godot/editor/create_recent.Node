@@ -1,0 +1,15 @@
+RichTextLabel
+Node3D
+CollisionShape3D
+StaticBody3D
+RayCast3D
+DirectionalLight3D
+Camera3D
+CharacterBody3D
+Node
+MeshInstance3D
+OmniLight3D
+RigidBody3D
+Area3D
+Area2D
+CollisionShape2D

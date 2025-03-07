@@ -1,0 +1,10 @@
+res://scens/node.tscn
+res://shader/includes/base-cel-shader.gdshaderinc
+res://shader/cel-shader-base.gdshader
+res://shader/outline.gdshader
+res://node_3d.tscn
+res://shader/includes/anisotropy.gdshaderinc
+res://characterController.gd
+res://scens/myFirstScene.tscn
+res://shader/outlineWhite.gdshader
+res://scens/ray_cast_3d.gd
