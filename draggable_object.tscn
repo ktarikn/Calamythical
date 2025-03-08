@@ -1,0 +1,223 @@
+[gd_scene load_steps=21 format=3 uid="uid://cpqb4vujhot7p"]
+
+[ext_resource type="Script" uid="uid://kentbhxnf431" path="res://area_2d.gd" id="1_pam7i"]
+[ext_resource type="Texture2D" uid="uid://bdrdor53w8pgh" path="res://Assets/baklava.png" id="2_a8y6q"]
+[ext_resource type="Script" uid="uid://c8i8plsh4sepb" path="res://Scenes/dondurma.gd" id="3_mewrj"]
+[ext_resource type="Texture2D" uid="uid://38wno2iew54s" path="res://Assets/MiniGames/Dondurma/dondurma.png" id="4_o1r5f"]
+[ext_resource type="Script" uid="uid://b2rqmms77t8hk" path="res://Scenes/vazelin.gd" id="5_xlulg"]
+[ext_resource type="Texture2D" uid="uid://cnmo8lwwhuek2" path="res://Assets/Vazelin/vazelin.png" id="6_10o0s"]
+[ext_resource type="Script" uid="uid://bwsx0ux82bhfa" path="res://Scenes/tarçın.gd" id="7_lsxxw"]
+[ext_resource type="Texture2D" uid="uid://bxnih16i5mnex" path="res://Assets/tarçın.png" id="8_dym57"]
+[ext_resource type="Texture2D" uid="uid://rmi4jrcxnare" path="res://Assets/defter.png" id="9_ilxfq"]
+[ext_resource type="Script" uid="uid://c8d4ayn0kwjn3" path="res://Scenes/area_2d.gd" id="10_j37o5"]
+[ext_resource type="Texture2D" uid="uid://iye6gap0btd3" path="res://Assets/el.png" id="11_ffoy5"]
+[ext_resource type="Texture2D" uid="uid://sxjcdr1tiwai" path="res://Assets/Vazelin/bulamaç.png" id="12_63i4i"]
+
+[sub_resource type="GDScript" id="GDScript_fmtew"]
+script/source = "extends Node2D
+@onready var dondurma = $Dondurma
+@onready var vazelin = $Vazelin
+@onready var tarcin = $Tarçın
+@onready var baklava = $Baklava
+
+@onready var treatment_order = [vazelin, tarcin, dondurma, baklava]
+"
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_3cw2a"]
+size = Vector2(125, 93)
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_8v4gn"]
+size = Vector2(79, 118)
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_nl0my"]
+size = Vector2(103, 110)
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_l73u3"]
+size = Vector2(73, 112)
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_fmy4g"]
+size = Vector2(750.002, 1020.84)
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_d6v16"]
+size = Vector2(412, 580)
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_fmtew"]
+size = Vector2(868, 668)
+
+[node name="Elde Egzema" type="Node2D"]
+script = SubResource("GDScript_fmtew")
+
+[node name="Baklava" type="Node2D" parent="."]
+position = Vector2(97, 109)
+
+[node name="Area2D" type="Area2D" parent="Baklava"]
+position = Vector2(2, 1)
+scale = Vector2(0.720001, 0.92)
+script = ExtResource("1_pam7i")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Baklava/Area2D"]
+position = Vector2(10.5, 9.5)
+shape = SubResource("RectangleShape2D_3cw2a")
+
+[node name="Sprite2D" type="Sprite2D" parent="Baklava"]
+position = Vector2(10, 10)
+scale = Vector2(0.04, 0.04)
+texture = ExtResource("2_a8y6q")
+
+[node name="Dondurma" type="Node2D" parent="."]
+position = Vector2(103, 252)
+script = ExtResource("3_mewrj")
+
+[node name="Sprite2D" type="Sprite2D" parent="Dondurma"]
+position = Vector2(10, 6)
+scale = Vector2(0.215, 0.215)
+texture = ExtResource("4_o1r5f")
+
+[node name="Area2D" type="Area2D" parent="Dondurma"]
+script = ExtResource("1_pam7i")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Dondurma/Area2D"]
+position = Vector2(9.5, 6)
+shape = SubResource("RectangleShape2D_8v4gn")
+
+[node name="CPUParticles2D" type="CPUParticles2D" parent="Dondurma"]
+visible = false
+position = Vector2(70, 12)
+
+[node name="Vazelin" type="Node2D" parent="."]
+position = Vector2(103, 407)
+script = ExtResource("5_xlulg")
+
+[node name="Sprite2D" type="Sprite2D" parent="Vazelin"]
+position = Vector2(7.99999, 1.00001)
+scale = Vector2(0.333333, 0.333333)
+texture = ExtResource("6_10o0s")
+
+[node name="Area2D" type="Area2D" parent="Vazelin"]
+script = ExtResource("1_pam7i")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Vazelin/Area2D"]
+position = Vector2(9.5, 6)
+shape = SubResource("RectangleShape2D_nl0my")
+
+[node name="Tarçın" type="Node2D" parent="."]
+position = Vector2(105, 538)
+script = ExtResource("7_lsxxw")
+
+[node name="Sprite2D" type="Sprite2D" parent="Tarçın"]
+position = Vector2(10, 12)
+scale = Vector2(0.353028, 0.353028)
+texture = ExtResource("8_dym57")
+
+[node name="Area2D" type="Area2D" parent="Tarçın"]
+script = ExtResource("1_pam7i")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Tarçın/Area2D"]
+position = Vector2(9.5, 12)
+shape = SubResource("RectangleShape2D_l73u3")
+
+[node name="CPUParticles2D" type="CPUParticles2D" parent="Tarçın"]
+position = Vector2(-26, -37)
+emitting = false
+amount = 40
+lifetime = 0.3
+one_shot = true
+explosiveness = 0.82
+emission_shape = 1
+emission_sphere_radius = 1.0
+direction = Vector2(-1, 0)
+initial_velocity_min = 161.62
+initial_velocity_max = 202.02
+scale_amount_min = 1.5
+scale_amount_max = 1.5
+color = Color(0.708727, 0.346221, 0.103903, 1)
+
+[node name="Ajanda" type="Node2D" parent="."]
+position = Vector2(1138, 279)
+scale = Vector2(0.439999, 0.439999)
+
+[node name="Sprite2D" type="Sprite2D" parent="Ajanda"]
+position = Vector2(259, 68)
+texture = ExtResource("9_ilxfq")
+
+[node name="Area2D" type="Area2D" parent="Ajanda"]
+script = ExtResource("10_j37o5")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Ajanda/Area2D"]
+position = Vector2(250, 60.4171)
+shape = SubResource("RectangleShape2D_fmy4g")
+
+[node name="AjandaText" type="RichTextLabel" parent="Ajanda"]
+offset_left = -29.5457
+offset_top = -404.546
+offset_right = 539.454
+offset_bottom = 45.4536
+scale = Vector2(1.13498, 1.13498)
+mouse_filter = 2
+theme_override_colors/default_color = Color(0, 0, 0, 1)
+theme_override_font_sizes/bold_italics_font_size = 45
+theme_override_font_sizes/normal_font_size = 32
+text = "MALZEMELER:
+BAKLAVA
+DONDURMA
+VAZELİN
+TARÇIN
+
+1- VAZELİNİ UYGULA
+2- TARÇINI DÖK
+3- DONDURMAYI BULA
+4- BAKLAVANIN KATLARINI YAPIŞTIR"
+fit_content = true
+
+[node name="El" type="Node2D" parent="."]
+z_index = -1
+
+[node name="Sprite2D" type="Sprite2D" parent="El"]
+clip_children = 2
+position = Vector2(625, 312)
+scale = Vector2(1.2, 1.2)
+texture = ExtResource("11_ffoy5")
+
+[node name="Bulamaç" type="Sprite2D" parent="El/Sprite2D"]
+position = Vector2(-66.6667, 107.5)
+scale = Vector2(1e-05, 1e-05)
+texture = ExtResource("12_63i4i")
+
+[node name="Area2D" type="Area2D" parent="El"]
+
+[node name="CollisionPolygon2D" type="CollisionPolygon2D" parent="El/Area2D"]
+polygon = PackedVector2Array(505, 222, 471, 104, 453, 107, 448, 136, 470, 261, 478, 402, 476, 453, 403, 604, 540, 605, 593, 502, 615, 465, 660, 420, 713, 382, 781, 358, 830, 358, 825, 333, 775, 320, 714, 337, 679, 325, 669, 285, 684, 170, 689, 62, 662, 56, 628, 216, 614, 212, 625, 137, 618, 26, 591, 21, 584, 57, 571, 215, 563, 177, 573, 56, 554, 48, 543, 57, 523, 177, 524, 232)
+
+[node name="TarçınAlan" type="Area2D" parent="El"]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="El/TarçınAlan"]
+position = Vector2(646, 284)
+shape = SubResource("RectangleShape2D_d6v16")
+
+[node name="MasaSınır" type="Area2D" parent="."]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="MasaSınır"]
+position = Vector2(727, 325)
+shape = SubResource("RectangleShape2D_fmtew")
+
+[node name="Instruction" type="RichTextLabel" parent="."]
+offset_left = 304.0
+offset_top = 62.0
+offset_right = 435.0
+offset_bottom = 161.0
+text = "\"Açmak için E\""
+
+[connection signal="mouse_entered" from="Baklava/Area2D" to="Baklava/Area2D" method="_on_mouse_entered"]
+[connection signal="mouse_exited" from="Baklava/Area2D" to="Baklava/Area2D" method="_on_mouse_exited"]
+[connection signal="mouse_entered" from="Dondurma/Area2D" to="Dondurma/Area2D" method="_on_mouse_entered"]
+[connection signal="mouse_exited" from="Dondurma/Area2D" to="Dondurma/Area2D" method="_on_mouse_exited"]
+[connection signal="mouse_entered" from="Vazelin/Area2D" to="Vazelin/Area2D" method="_on_mouse_entered"]
+[connection signal="mouse_exited" from="Vazelin/Area2D" to="Vazelin/Area2D" method="_on_mouse_exited"]
+[connection signal="mouse_entered" from="Tarçın/Area2D" to="Tarçın/Area2D" method="_on_mouse_entered"]
+[connection signal="mouse_exited" from="Tarçın/Area2D" to="Tarçın/Area2D" method="_on_mouse_exited"]
+[connection signal="mouse_entered" from="Ajanda/Area2D" to="Ajanda/Area2D" method="_on_mouse_entered"]
+[connection signal="mouse_exited" from="Ajanda/Area2D" to="Ajanda/Area2D" method="_on_mouse_exited"]
+[connection signal="mouse_entered" from="El/Area2D" to="Vazelin" method="_on_area_2d_mouse_entered"]
+[connection signal="mouse_entered" from="El/Area2D" to="Tarçın" method="_on_area_2d_mouse_entered"]
+[connection signal="mouse_exited" from="El/Area2D" to="Vazelin" method="_on_area_2d_mouse_exited"]
+[connection signal="mouse_exited" from="El/Area2D" to="Tarçın" method="_on_area_2d_mouse_exited"]

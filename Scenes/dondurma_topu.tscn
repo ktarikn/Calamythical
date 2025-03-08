@@ -1,0 +1,26 @@
+[gd_scene load_steps=5 format=3 uid="uid://daxaghey6mjce"]
+
+[ext_resource type="Script" uid="uid://n4y10pq1urw" path="res://Scenes/dondurma_topu.gd" id="1_e3cpl"]
+[ext_resource type="Texture2D" uid="uid://hvu6jnutl436" path="res://Assets/MiniGames/Dondurma/dondurma_topu.png" id="1_e7711"]
+[ext_resource type="Script" uid="uid://c8d4ayn0kwjn3" path="res://Scenes/area_2d.gd" id="2_xr7ex"]
+
+[sub_resource type="CircleShape2D" id="CircleShape2D_mewrj"]
+radius = 44.0114
+
+[node name="DondurmaTopu" type="Node2D"]
+z_index = 5
+script = ExtResource("1_e3cpl")
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+scale = Vector2(0.3, 0.3)
+texture = ExtResource("1_e7711")
+
+[node name="Area2D" type="Area2D" parent="."]
+script = ExtResource("2_xr7ex")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Area2D"]
+position = Vector2(-1, 5)
+shape = SubResource("CircleShape2D_mewrj")
+
+[connection signal="mouse_entered" from="Area2D" to="Area2D" method="_on_mouse_entered"]
+[connection signal="mouse_exited" from="Area2D" to="Area2D" method="_on_mouse_exited"]
