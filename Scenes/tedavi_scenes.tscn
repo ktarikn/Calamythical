@@ -1,0 +1,10 @@
+[gd_scene load_steps=3 format=3 uid="uid://ceyh4erixll3h"]
+
+[ext_resource type="PackedScene" uid="uid://cpqb4vujhot7p" path="res://Scenes/draggable_object.tscn" id="1_c8vjp"]
+[ext_resource type="PackedScene" uid="uid://bou83jjpxxd2t" path="res://Scenes/kıl_dönmesi.tscn" id="2_5s4qt"]
+
+[node name="TedaviScenes" type="Node2D"]
+
+[node name="Elde Egzema" parent="." instance=ExtResource("1_c8vjp")]
+
+[node name="Kıl Dönmesi" parent="." instance=ExtResource("2_5s4qt")]

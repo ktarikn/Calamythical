@@ -1,0 +1,213 @@
+[gd_scene load_steps=23 format=3 uid="uid://bou83jjpxxd2t"]
+
+[ext_resource type="Script" uid="uid://co6vt0i0yqqoc" path="res://Scenes/kıl_dönmesi.gd" id="1_64miv"]
+[ext_resource type="Script" uid="uid://blviw7st6y6os" path="res://Scenes/baklava.gd" id="2_uaxvu"]
+[ext_resource type="Script" uid="uid://kentbhxnf431" path="res://Scenes/area_2d.gd" id="3_mi1no"]
+[ext_resource type="Texture2D" uid="uid://dl5rc3ywufl7b" path="res://Assets/MiniGames/Baklava/baklava_tabak.png" id="4_b4swf"]
+[ext_resource type="Script" uid="uid://ddnhxcnrs47ph" path="res://Scenes/lokumlar.gd" id="5_is0ch"]
+[ext_resource type="Texture2D" uid="uid://dfyiyclt7xn3b" path="res://Assets/MiniGames/Lokumlar/yeşil_lokum.png" id="6_tqmqe"]
+[ext_resource type="Texture2D" uid="uid://byus4mgf5h7hm" path="res://Assets/MiniGames/Lokumlar/sarı_lokum.png" id="7_qpmlp"]
+[ext_resource type="Texture2D" uid="uid://bcuwayo2bow3u" path="res://Assets/MiniGames/Lokumlar/pembe_lokum.png" id="8_ne6gm"]
+[ext_resource type="Script" uid="uid://b2rqmms77t8hk" path="res://Scenes/vazelin.gd" id="9_bvmj5"]
+[ext_resource type="Texture2D" uid="uid://cnmo8lwwhuek2" path="res://Assets/MiniGames/Vazelin/vazelin.png" id="10_kg7gh"]
+[ext_resource type="Script" uid="uid://bwsx0ux82bhfa" path="res://Scenes/tarçın.gd" id="11_l8u1n"]
+[ext_resource type="Texture2D" uid="uid://bxnih16i5mnex" path="res://Assets/tarçın.png" id="12_8swhy"]
+[ext_resource type="Texture2D" uid="uid://rmi4jrcxnare" path="res://Assets/defter.png" id="13_ejyw5"]
+[ext_resource type="Script" uid="uid://c8d4ayn0kwjn3" path="res://Scenes/ajanda.gd" id="14_ae74f"]
+[ext_resource type="Texture2D" uid="uid://cp40wm8w7dkp6" path="res://Assets/kuyruk_sokumu.png" id="15_gvgqy"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_67xwk"]
+size = Vector2(125, 57.6087)
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_7jd10"]
+size = Vector2(113, 88)
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_g6vhs"]
+size = Vector2(103, 110)
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_du65o"]
+size = Vector2(73, 112)
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_gq1m3"]
+size = Vector2(750.002, 1020.84)
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_wbwlq"]
+size = Vector2(486.338, 20)
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_utpev"]
+size = Vector2(868, 668)
+
+[node name="Kıl Dönmesi" type="Node2D"]
+script = ExtResource("1_64miv")
+
+[node name="Baklava" type="Node2D" parent="."]
+position = Vector2(97, 109)
+script = ExtResource("2_uaxvu")
+
+[node name="Area2D" type="Area2D" parent="Baklava"]
+position = Vector2(2, 1)
+scale = Vector2(0.720001, 0.92)
+script = ExtResource("3_mi1no")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Baklava/Area2D"]
+position = Vector2(10.5, 9.23914)
+shape = SubResource("RectangleShape2D_67xwk")
+
+[node name="Sprite2D" type="Sprite2D" parent="Baklava"]
+position = Vector2(9.00001, 8.99999)
+scale = Vector2(0.158462, 0.158462)
+texture = ExtResource("4_b4swf")
+
+[node name="Lokumlar" type="Node2D" parent="."]
+position = Vector2(114, 259)
+script = ExtResource("5_is0ch")
+
+[node name="Yeşil" type="Sprite2D" parent="Lokumlar"]
+position = Vector2(91, 42)
+scale = Vector2(0.134999, 0.134999)
+texture = ExtResource("6_tqmqe")
+
+[node name="Sarı" type="Sprite2D" parent="Lokumlar"]
+position = Vector2(56, 70)
+scale = Vector2(0.135, 0.135)
+texture = ExtResource("7_qpmlp")
+
+[node name="Pembe" type="Sprite2D" parent="Lokumlar"]
+position = Vector2(108, 78)
+scale = Vector2(0.135, 0.135)
+texture = ExtResource("8_ne6gm")
+
+[node name="Area2D" type="Area2D" parent="Lokumlar"]
+script = ExtResource("3_mi1no")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Lokumlar/Area2D"]
+position = Vector2(0.5, -9)
+shape = SubResource("RectangleShape2D_7jd10")
+
+[node name="Vazelin" type="Node2D" parent="."]
+position = Vector2(103, 407)
+script = ExtResource("9_bvmj5")
+
+[node name="Sprite2D" type="Sprite2D" parent="Vazelin"]
+position = Vector2(7.99999, 1.00001)
+scale = Vector2(0.333333, 0.333333)
+texture = ExtResource("10_kg7gh")
+
+[node name="Area2D" type="Area2D" parent="Vazelin"]
+script = ExtResource("3_mi1no")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Vazelin/Area2D"]
+position = Vector2(9.5, 6)
+shape = SubResource("RectangleShape2D_g6vhs")
+
+[node name="Tarçın" type="Node2D" parent="."]
+position = Vector2(105, 538)
+script = ExtResource("11_l8u1n")
+
+[node name="Sprite2D" type="Sprite2D" parent="Tarçın"]
+position = Vector2(10, 12)
+scale = Vector2(0.353028, 0.353028)
+texture = ExtResource("12_8swhy")
+
+[node name="Area2D" type="Area2D" parent="Tarçın"]
+script = ExtResource("3_mi1no")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Tarçın/Area2D"]
+position = Vector2(9.5, 12)
+shape = SubResource("RectangleShape2D_du65o")
+
+[node name="CPUParticles2D" type="CPUParticles2D" parent="Tarçın"]
+position = Vector2(-26, -37)
+emitting = false
+amount = 40
+lifetime = 0.3
+one_shot = true
+explosiveness = 0.82
+emission_shape = 1
+emission_sphere_radius = 1.0
+direction = Vector2(-1, 0)
+initial_velocity_min = 161.62
+initial_velocity_max = 202.02
+scale_amount_min = 1.5
+scale_amount_max = 1.5
+color = Color(0.708727, 0.346221, 0.103903, 1)
+
+[node name="Ajanda" type="Node2D" parent="."]
+position = Vector2(1138, 279)
+scale = Vector2(0.439999, 0.439999)
+
+[node name="Sprite2D" type="Sprite2D" parent="Ajanda"]
+position = Vector2(259, 68)
+texture = ExtResource("13_ejyw5")
+
+[node name="Area2D" type="Area2D" parent="Ajanda"]
+script = ExtResource("14_ae74f")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Ajanda/Area2D"]
+position = Vector2(250, 60.4171)
+shape = SubResource("RectangleShape2D_gq1m3")
+
+[node name="AjandaText" type="RichTextLabel" parent="Ajanda"]
+offset_left = -29.5457
+offset_top = -404.546
+offset_right = 539.454
+offset_bottom = 45.4536
+scale = Vector2(1.13498, 1.13498)
+mouse_filter = 2
+theme_override_colors/default_color = Color(0, 0, 0, 1)
+theme_override_font_sizes/bold_italics_font_size = 45
+theme_override_font_sizes/normal_font_size = 32
+text = "MALZEMELER:
+BAKLAVA
+DONDURMA
+VAZELİN
+TARÇIN
+
+1- VAZELİNİ UYGULA
+2- TARÇINI DÖK
+3- DONDURMAYI BULA
+4- BAKLAVANIN KATLARINI YAPIŞTIR"
+fit_content = true
+metadata/_edit_use_anchors_ = true
+
+[node name="KuyrukSokumu" type="Node2D" parent="."]
+z_index = -1
+position = Vector2(547, 330)
+
+[node name="Sprite2D" type="Sprite2D" parent="KuyrukSokumu"]
+clip_children = 2
+scale = Vector2(2.0382, 2.0382)
+texture = ExtResource("15_gvgqy")
+
+[node name="Area2D" type="Area2D" parent="KuyrukSokumu"]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="KuyrukSokumu/Area2D"]
+position = Vector2(31, 5)
+rotation = 3.14159
+scale = Vector2(0.352583, 6.15258)
+shape = SubResource("RectangleShape2D_wbwlq")
+
+[node name="MasaSınır" type="Area2D" parent="."]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="MasaSınır"]
+position = Vector2(727, 325)
+shape = SubResource("RectangleShape2D_utpev")
+
+[node name="Instruction" type="RichTextLabel" parent="."]
+offset_left = 304.0
+offset_top = 62.0
+offset_right = 435.0
+offset_bottom = 161.0
+text = "\"Açmak için E\""
+metadata/_edit_use_anchors_ = true
+
+[connection signal="mouse_entered" from="Baklava/Area2D" to="Baklava/Area2D" method="_on_mouse_entered"]
+[connection signal="mouse_exited" from="Baklava/Area2D" to="Baklava/Area2D" method="_on_mouse_exited"]
+[connection signal="mouse_entered" from="Lokumlar/Area2D" to="Lokumlar/Area2D" method="_on_mouse_entered"]
+[connection signal="mouse_exited" from="Lokumlar/Area2D" to="Lokumlar/Area2D" method="_on_mouse_exited"]
+[connection signal="mouse_entered" from="Vazelin/Area2D" to="Vazelin/Area2D" method="_on_mouse_entered"]
+[connection signal="mouse_exited" from="Vazelin/Area2D" to="Vazelin/Area2D" method="_on_mouse_exited"]
+[connection signal="mouse_entered" from="Tarçın/Area2D" to="Tarçın/Area2D" method="_on_mouse_entered"]
+[connection signal="mouse_exited" from="Tarçın/Area2D" to="Tarçın/Area2D" method="_on_mouse_exited"]
+[connection signal="mouse_entered" from="Ajanda/Area2D" to="Ajanda/Area2D" method="_on_mouse_entered"]
+[connection signal="mouse_exited" from="Ajanda/Area2D" to="Ajanda/Area2D" method="_on_mouse_exited"]

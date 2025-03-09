@@ -1,30 +1,92 @@
 ea4bc82a6ad023ab7ee23ee620429895
-::res://::1741434377
-area_2d.gd::GDScript/GDScript::710969262786319198::1741427665::0::1::::<>Area2D<><>0<>0<><>::
-draggable_object.tscn::PackedScene::5858817705342940571::1741434377::0::1::::<><><>0<>0<><>::uid://kentbhxnf431::::res://area_2d.gd<>uid://bdrdor53w8pgh::::res://Assets/baklava.png<>uid://c8i8plsh4sepb::::res://Scenes/dondurma.gd<>uid://38wno2iew54s::::res://Assets/MiniGames/Dondurma/dondurma.png<>uid://b2rqmms77t8hk::::res://Scenes/vazelin.gd<>uid://cnmo8lwwhuek2::::res://Assets/Vazelin/vazelin.png<>uid://bwsx0ux82bhfa::::res://Scenes/tarçın.gd<>uid://bxnih16i5mnex::::res://Assets/tarçın.png<>uid://rmi4jrcxnare::::res://Assets/defter.png<>uid://c8d4ayn0kwjn3::::res://Scenes/area_2d.gd<>uid://iye6gap0btd3::::res://Assets/el.png<>uid://sxjcdr1tiwai::::res://Assets/Vazelin/bulamaç.png
-global.gd::GDScript/GDScript::6340121081547789673::1741380135::0::1::::<>Node<><>0<>0<><>::
+::res://::1741514894
 icon.svg::CompressedTexture2D/CompressedTexture2D::7717292218852038958::1741357320::1741377140::1::::<><><>0<>0<>22d5e9c5642c75091bd2619c2eb15ed3<>res://.godot/imported/icon.svg-218a8f2b3041327d8a5756f3a245f83b.ctex::
-::res://Assets/::1741433476
-baklava.png::CompressedTexture2D/CompressedTexture2D::2632289729063173111::1741383080::1741383138::1::::<><><>0<>0<>14812f7ce3f36128f934a4433be352cc<>res://.godot/imported/baklava.png-db94e56cb59ef104b28505d43d168d4c.ctex::
+::res://Assets/::1741508235
+ajanda.jpeg::CompressedTexture2D/CompressedTexture2D::3751529038336058065::1741508096::1741508235::1::::<><><>0<>0<>065f473df00c0d94578c6793d4dfe807<>res://.godot/imported/ajanda.jpeg-122a32400a4fa5a64092a7fc418aec1f.ctex::
 chill-guy.png::CompressedTexture2D/CompressedTexture2D::1248210743253535236::1741377692::1741383136::1::::<><><>0<>0<>71f2078bfc88db87854cd4d784a34f78<>res://.godot/imported/chill-guy.png-e1a3989bc0d4bb10ddcdf15bab64469b.ctex::
-defter.png::CompressedTexture2D/CompressedTexture2D::1218520897954586014::1741383788::1741383789::1::::<><><>0<>0<>cb01e2e816daf2f5b124e4200ebc8fb3<>res://.godot/imported/defter.png-7e2f8fb31f3b40e725bf592740684c36.ctex::
-el.png::CompressedTexture2D/CompressedTexture2D::611354358638913350::1741410014::1741410017::1::::<><><>0<>0<>52789b5761b7caed7fd8105c084b8a2a<>res://.godot/imported/el.png-2c41be01b975bcb9857a5b7e6b48f949.ctex::
+defter.png::CompressedTexture2D/CompressedTexture2D::1218520897954586014::1741508232::1741508235::1::::<><><>0<>0<>cb01e2e816daf2f5b124e4200ebc8fb3<>res://.godot/imported/defter.png-7e2f8fb31f3b40e725bf592740684c36.ctex::
+El.png::CompressedTexture2D/CompressedTexture2D::788790001003070354::1741499881::1741499893::1::::<><><>0<>0<>9112b0eeb17fa90b50acc4659ff36a7c<>res://.godot/imported/El.png-0b7fce623eb6e92ea13131021899da29.ctex::
+Keyboard Extras.png::CompressedTexture2D/CompressedTexture2D::4322834653169588945::1741472250::1741472270::1::::<><><>0<>0<>1e0f777bad83a5ddd8ad3f6fc7cbeb19<>res://.godot/imported/Keyboard Extras.png-9ebfd42007f017e71f33a33362dd0ec1.ctex::
+Keyboard Letters and Symbols.png::CompressedTexture2D/CompressedTexture2D::5713028798868525550::1741472241::1741472270::1::::<><><>0<>0<>9b400fe5b8fc10bdc7a175c7cbf17f9c<>res://.godot/imported/Keyboard Letters and Symbols.png-6ece81ec1fe0fda8719b6602bdb5c00f.ctex::
+kuyruk_sokumu.png::CompressedTexture2D/CompressedTexture2D::7941316564757246130::1741455860::1741470283::1::::<><><>0<>0<>09ad1e5757b62bf5084b2d0644031b02<>res://.godot/imported/kuyruk_sokumu.png-96b4932d4d0576dc1c11e78136847dfe.ctex::
 sonic-guy.png::CompressedTexture2D/CompressedTexture2D::6409959005019282325::1741380828::1741383136::1::::<><><>0<>0<>a9781fed248d93ce00537b3501092340<>res://.godot/imported/sonic-guy.png-4bb8ed0a567bc1d2eb979cc141f65dc6.ctex::
-tarçın.png::CompressedTexture2D/CompressedTexture2D::4028100648570189907::1741383655::1741383656::1::::<><><>0<>0<>c9e722eded416612dcec57ece02f930b<>res://.godot/imported/tarçın.png-4f7470bc91673a6c5c376c39fd0a0cbb.ctex::
 vazelin_vfx.png::CompressedTexture2D/CompressedTexture2D::90489455065506332::1741410395::1741410407::1::::<><><>0<>0<>5e4e4d3e2f5467d10fd262b1cade25f8<>res://.godot/imported/vazelin_vfx.png-50a5e535b7f3e3721ef4ddd99a6d706c.ctex::
-::res://Assets/MiniGames/::1741433472
-::res://Assets/MiniGames/Dondurma/::1741434654
-dondurma.png::CompressedTexture2D::2034771854316855572::1741433523::1741433526::1::::<><><>0<>0<>56fe059deebe39409b125b572ed72226<>res://.godot/imported/dondurma.png-109dfe7affacd0244ddeb2a2d9430cdf.ctex::
-dondurma_topu.png::CompressedTexture2D/CompressedTexture2D::535944031495037459::1741433508::1741433526::1::::<><><>0<>0<>27c546d35b029c9012883dbe35d04873<>res://.godot/imported/dondurma_topu.png-e000a07799448269ba790fd728987d89.ctex::
-ezilmiş_top.png::CompressedTexture2D::4898558918393757505::1741434646::1741434660::1::::<><><>0<>0<>1b5a2121d95ae0668fa77f22a89d71db<>res://.godot/imported/ezilmiş_top.png-2f52c1f37e724bcb2cc3da959a3e452e.ctex::
-::res://Assets/Vazelin/::1741433476
-bulamaç.png::CompressedTexture2D::1311430083389442512::1741416519::1741433476::1::::<><><>0<>0<>938f8818a2c742819285a74f591000db<>res://.godot/imported/bulamaç.png-6c9c657359479d2de37988a8e9c3a0d1.ctex::
-vazelin.png::CompressedTexture2D::5710978449579205967::1741414666::1741433476::1::::<><><>0<>0<>9f8f1eded8a7487d765bc163bbd24426<>res://.godot/imported/vazelin.png-f110d83bb7c4e9a11e8a6b06ebce86b0.ctex::
-vazelin_açık.png::CompressedTexture2D::4506015065896839261::1741414750::1741433476::1::::<><><>0<>0<>33b4d8f2a20b86a1a94dfc19b72bd664<>res://.godot/imported/vazelin_açık.png-d922f27bd14adf50da7d2bb9a32efa94.ctex::
-::res://Scenes/::1741434377
+::res://Assets/MiniGames/::1741510499
+::res://Assets/MiniGames/Baklava/::1741517754
+Baklava a alt.png::CompressedTexture2D::738962079661206045::1741517709::1741517780::1::::<><><>0<>0<>5353e8dcea30d25584ccc614d0948459<>res://.godot/imported/Baklava a alt.png-8ef843d3ba0b550e334df01830d9b5f4.ctex::
+Baklava a orta.png::CompressedTexture2D::5408299248948902766::1741517709::1741517780::1::::<><><>0<>0<>2c2fb3f7242f73123807fc9fd90c9995<>res://.godot/imported/Baklava a orta.png-5f3c509e081a34512b995343f8989525.ctex::
+Baklava a ust.png::CompressedTexture2D::8390707391099935682::1741517709::1741517780::1::::<><><>0<>0<>356e08105fa00b9e428f1fc82168e0d9<>res://.godot/imported/Baklava a ust.png-50a34f147ee3dc9ff7aa3d224c98b7e6.ctex::
+Baklava alt.png::CompressedTexture2D::7373091122016262272::1741516184::1741516213::1::::<><><>0<>0<>45b7a1b57b09461625e682104d9d372a<>res://.godot/imported/Baklava alt.png-4e715b3ffce97dfc21e4d5e584c51a6a.ctex::
+Baklava orta.png::CompressedTexture2D::4392979012298492984::1741516185::1741516213::1::::<><><>0<>0<>ddf2db094680cafdf9f9fe5fe6c3cdad<>res://.godot/imported/Baklava orta.png-ee022113e79674482a054a00499cf1d9.ctex::
+Baklava ust.png::CompressedTexture2D::9083913432228057681::1741516185::1741516213::1::::<><><>0<>0<>b7177a79af994f49254d1264d9bb2d73<>res://.godot/imported/Baklava ust.png-489b616899f56fda858829f00f0e6ea2.ctex::
+baklava.png::CompressedTexture2D/CompressedTexture2D::2632289729063173111::1741506455::1741506457::1::::<><><>0<>0<>f03242566bc3e492c064c3de45b440ae<>res://.godot/imported/baklava.png-b49ab1bd8952cff5713cb283b0ecb9de.ctex::
+::res://Assets/MiniGames/Dondurma/::1741512445
+Adsız_Resim-1 2.png::CompressedTexture2D/CompressedTexture2D::5883559211840520149::1741512440::1741512445::1::::<><><>0<>0<>ab1594f322c3d2101f246f4190fdc579<>res://.godot/imported/Adsız_Resim-1 2.png-76a626eb8ed573e22c7693d42c199b95.ctex::
+Adsız_Resim-2 2.png::CompressedTexture2D/CompressedTexture2D::2804083552219427631::1741512440::1741512445::1::::<><><>0<>0<>12496fe51c3a87a6cf0854be62ed628a<>res://.godot/imported/Adsız_Resim-2 2.png-07b3ae1c82d6ab1ba04ffc2c96a4b01e.ctex::
+Adsız_Resim-3 2.png::CompressedTexture2D/CompressedTexture2D::5847653437035114337::1741512440::1741512445::1::::<><><>0<>0<>da6403094fce605affe79fead98db0fd<>res://.godot/imported/Adsız_Resim-3 2.png-390c4205bced140c3db4f5c5e1c62ac0.ctex::
+Adsız_Resim-4 2.png::CompressedTexture2D/CompressedTexture2D::786201611162907214::1741512440::1741512445::1::::<><><>0<>0<>cb676bb026c0b6e8f5c3ea282835b195<>res://.godot/imported/Adsız_Resim-4 2.png-ba9861cc33aee0dab1156ca1435b9f91.ctex::
+Adsız_Resim-5 2.png::CompressedTexture2D/CompressedTexture2D::5782362038143426249::1741512440::1741512445::1::::<><><>0<>0<>1372937e0ab6fca6321987ea539e6b7e<>res://.godot/imported/Adsız_Resim-5 2.png-40aa506ae0a974cba385f7e12dbceca8.ctex::
+dondurma.png::CompressedTexture2D/CompressedTexture2D::2034771854316855572::1741503726::1741503817::1::::<><><>0<>0<>56fe059deebe39409b125b572ed72226<>res://.godot/imported/dondurma.png-109dfe7affacd0244ddeb2a2d9430cdf.ctex::
+::res://Assets/MiniGames/KoliBandı/::1741470255
+Bant.png::CompressedTexture2D/CompressedTexture2D::6088539243823139243::1741470253::1741470255::1::::<><><>0<>0<>10846dbe86eb2cc87d50c7350cdff0dc<>res://.godot/imported/Bant.png-2197a5c0cf2d16adb9e4f982cb385c1e.ctex::
+::res://Assets/MiniGames/Krem/::1741510522
+Adsız_Resim-1.png::CompressedTexture2D/CompressedTexture2D::2110052564250618796::1741510515::1741510522::1::::<><><>0<>0<>b80b3cc9f7ac13eea3dd37e7a7151a47<>res://.godot/imported/Adsız_Resim-1.png-a5e3b96af1c2e8f049fb23a412c4a298.ctex::
+Adsız_Resim-2.png::CompressedTexture2D/CompressedTexture2D::6424252599326340053::1741510515::1741510522::1::::<><><>0<>0<>ac8ea47aea81cf5aaab39b7750693c87<>res://.godot/imported/Adsız_Resim-2.png-2fb5a3f9b517594686a35657c27b0399.ctex::
+Adsız_Resim-3.png::CompressedTexture2D/CompressedTexture2D::6401755819324286486::1741510515::1741510522::1::::<><><>0<>0<>3e7b89e4d0d32f3015aa8aea2cff2fcb<>res://.godot/imported/Adsız_Resim-3.png-a5a4985da8894070f507bee171450f4e.ctex::
+Adsız_Resim-4.png::CompressedTexture2D/CompressedTexture2D::2168833009577746471::1741510515::1741510522::1::::<><><>0<>0<>14feaaedda6240842a041b82739d8e98<>res://.godot/imported/Adsız_Resim-4.png-50ac796d786a8774c9488fad2454dacf.ctex::
+Adsız_Resim-5.png::CompressedTexture2D/CompressedTexture2D::448406609120793853::1741510515::1741510522::1::::<><><>0<>0<>025508d999c05ac9928274426113bf95<>res://.godot/imported/Adsız_Resim-5.png-bbf5ad908f7858a6589ac4f749535a73.ctex::
+Adsız_Resim-6.png::CompressedTexture2D/CompressedTexture2D::9202987753242670037::1741510515::1741510522::1::::<><><>0<>0<>f2445f1680aca06099de1201b588abda<>res://.godot/imported/Adsız_Resim-6.png-69804fbc9427efe3cdc34ca77675c4b1.ctex::
+::res://Assets/MiniGames/Limon/::1741467283
+Limon.png::CompressedTexture2D/CompressedTexture2D::2843799931944504568::1741467275::1741467283::1::::<><><>0<>0<>4f3ed0a37924de7ed5525f0d9d6da904<>res://.godot/imported/Limon.png-c85789bb296537e1e8a75b24215fad19.ctex::
+::res://Assets/MiniGames/Lokumlar/::1741459102
+pembe_lokum.png::CompressedTexture2D/CompressedTexture2D::2569422983307558276::1741458929::1741459102::1::::<><><>0<>0<>8e1d77ee343d9a4d0a9e0e2ee1c9ce0c<>res://.godot/imported/pembe_lokum.png-a9c0a6429b81e671eef37ad0a15a6ea2.ctex::
+sarı_lokum.png::CompressedTexture2D/CompressedTexture2D::4113385819796719922::1741458914::1741459102::1::::<><><>0<>0<>d0f94d867271b30f1dbcb67b71b0e0e6<>res://.godot/imported/sarı_lokum.png-28534e191cd3c0f80ef185268223aa4b.ctex::
+yeşil_lokum.png::CompressedTexture2D/CompressedTexture2D::7560280053309253573::1741458899::1741459102::1::::<><><>0<>0<>8b3b70ecbbb60244c6dc04c8f04a44c2<>res://.godot/imported/yeşil_lokum.png-05e46fad1df9db3997f9d34c3fda01c3.ctex::
+::res://Assets/MiniGames/PudraŞekeri/::1741506467
+pudra_kaşık.png::CompressedTexture2D/CompressedTexture2D::6370183737095891029::1741465617::1741465637::1::::<><><>0<>0<>6949aa6e0cfad5df061a05b8257ed1c1<>res://.godot/imported/pudra_kaşık.png-25e958a087880f808777e4164f797958.ctex::
+pudra_yığın.png::CompressedTexture2D/CompressedTexture2D::5688819459120463968::1741465370::1741465372::1::::<><><>0<>0<>e085d6e053e3f6b0711e7580bea319fb<>res://.godot/imported/pudra_yığın.png-62aeafcd203b0eb22148210ba9e08217.ctex::
+vazelin.png::CompressedTexture2D/CompressedTexture2D::5710978449579205967::1741473762::1741506467::1::::<><><>0<>0<>a25563ab6099f02759fbd2a5300ec87a<>res://.godot/imported/vazelin.png-19f214e28da5a8b3a8c5467e5b429a69.ctex::
+::res://Assets/MiniGames/Tarçın/::1741500380
+0.png::CompressedTexture2D/CompressedTexture2D::7353001995183666210::1741500360::1741500380::1::::<><><>0<>0<>fa6e1c5cb02e38f32ac63e9598b64001<>res://.godot/imported/0.png-4eae53072ce34ab06b4017810b3ac397.ctex::
+1.png::CompressedTexture2D/CompressedTexture2D::5656451449192722012::1741500166::1741500380::1::::<><><>0<>0<>92dd8868e10f5d8c12fcbdedab5d4494<>res://.godot/imported/1.png-5fd4011f9f120dffc04792eaea53c6ba.ctex::
+2.png::CompressedTexture2D/CompressedTexture2D::5723742893378544176::1741500252::1741500380::1::::<><><>0<>0<>8f0b9ceddbeaf97968fcca466ae3679d<>res://.godot/imported/2.png-76de98f74809ec12cb1d79c16dc6d6b2.ctex::
+3.png::CompressedTexture2D/CompressedTexture2D::8420832057366320862::1741500295::1741500380::1::::<><><>0<>0<>4bc836d9b861611a7fc86eba266e2dc4<>res://.godot/imported/3.png-b237ebfa28d864b8051d0b7294524d12.ctex::
+::res://Assets/MiniGames/Vazelin/::1741506466
+bulamaç.png::CompressedTexture2D/CompressedTexture2D::1311430083389442512::1741416519::1741447159::1::::<><><>0<>0<>1a2db40caaed455acad4445bc4bea3a0<>res://.godot/imported/bulamaç.png-c1e154a6a3f390dc265dcda2e85a344c.ctex::
+vazelin_açık.png::CompressedTexture2D/CompressedTexture2D::4506015065896839261::1741474108::1741474116::1::::<><><>0<>0<>f119cb24f16d382a883d28352bd98431<>res://.godot/imported/vazelin_açık.png-228a6e41d8305616a1774efca80198c9.ctex::
+::res://Assets/MiniGames/Vazelin/açılma_animasyon/::1741474116
+Adsız_Resim-1 2.png::CompressedTexture2D/CompressedTexture2D::7596743941720791248::1741473958::1741474116::1::::<><><>0<>0<>cfc662fddbdf61716139dcce6434cfa1<>res://.godot/imported/Adsız_Resim-1 2.png-835cfd30f71a03521634bab00fb54bb1.ctex::
+Adsız_Resim-2 2.png::CompressedTexture2D/CompressedTexture2D::2393776964348937314::1741473958::1741474116::1::::<><><>0<>0<>96c0222e553d9de6ef6be00493fb4da0<>res://.godot/imported/Adsız_Resim-2 2.png-d4c1f6005c11d5071511829f0a60423f.ctex::
+Adsız_Resim-3 2.png::CompressedTexture2D/CompressedTexture2D::8816912570457171429::1741473958::1741474116::1::::<><><>0<>0<>e9aa282d0c34742b14906083ac0eeeef<>res://.godot/imported/Adsız_Resim-3 2.png-194a09a48d15cbb8e8eeee44d4bbde5a.ctex::
+Adsız_Resim-4 2.png::CompressedTexture2D/CompressedTexture2D::2206375120631355506::1741473958::1741474116::1::::<><><>0<>0<>54022bba9b03c048d1aa03ce68da4bdf<>res://.godot/imported/Adsız_Resim-4 2.png-4dda637b87c9c95f600c8ad7f4b35d94.ctex::
+Adsız_Resim-5 2.png::CompressedTexture2D/CompressedTexture2D::3577365209529652267::1741473958::1741474116::1::::<><><>0<>0<>6f63162c1417a292411626877bb4efb3<>res://.godot/imported/Adsız_Resim-5 2.png-2d9d37a0e5c9df043ab733d348f28fd5.ctex::
+Adsız_Resim-6 2.png::CompressedTexture2D/CompressedTexture2D::7455522165827520634::1741473958::1741474116::1::::<><><>0<>0<>84f877b367a5bafb4bc011c5b8c57250<>res://.godot/imported/Adsız_Resim-6 2.png-4f0ed33c0831c79a036549c6c4e91348.ctex::
+::res://Assets/SFX/::1741512124
+KapakAçma.mp3::AudioStreamMP3/AudioStreamMP3::5732716832064460735::1741499178::1741499260::1::::<><><>0<>0<>efac384d547a2dce029bd0c8b2d84c0d<>res://.godot/imported/KapakAçma.mp3-9d0bec76b204d54f599b49777aa6662b.mp3str::
+Krem.mp3::AudioStreamMP3/AudioStreamMP3::6744087372755584172::1741512122::1741512124::1::::<><><>0<>0<>b6475129093bf62c0de3ebb466ead88d<>res://.godot/imported/Krem.mp3-dd78cef122601281e6c279d031b8e2a5.mp3str::
+Shaker.mp3::AudioStreamMP3/AudioStreamMP3::3541424099870568049::1741502453::1741502458::1::::<><><>0<>0<>39880fa60cce0c44b4e96851ae333d47<>res://.godot/imported/Shaker.mp3-f34b10fa53940995694ead9e56d25152.mp3str::
+Shlop1.mp3::AudioStreamMP3/AudioStreamMP3::5074037703505935280::1741507269::1741507275::1::::<><><>0<>0<>0faa69a0913378884cb3aca6308bd79e<>res://.godot/imported/Shlop1.mp3-1fc25ad43c1491bd94aa7c531a917f18.mp3str::
+Shlop2.mp3::AudioStreamMP3/AudioStreamMP3::8058746147352353379::1741507219::1741507275::1::::<><><>0<>0<>1e86799e9c8ff2f43571f71dcdafeeac<>res://.godot/imported/Shlop2.mp3-68d8ef310cd046b19c2daff02b8316fc.mp3str::
+::res://Scenes/::1741517628
+ajanda.gd::GDScript::7097028415286662954::1741510669::0::1::::<>Area2D<><>0<>0<><>::
 ajanda_text.gd::GDScript/GDScript::2559103720173342200::1741384776::0::1::::<>RichTextLabel<><>0<>0<><>::
-area_2d.gd::GDScript/GDScript::7097028415286662954::1741384927::0::1::::<>Area2D<><>0<>0<><>::
-dondurma.gd::GDScript::7107619283064461135::1741434377::0::1::::<>Node2D<><>0<>0<><>::
-sprite_2d.gd::GDScript/GDScript::4967585468422754992::1741381101::0::1::::<>Sprite2D<><>0<>0<><>::
-tarçın.gd::GDScript::3969176266517142622::1741433746::0::1::::<>Node2D<><>0<>0<><>::
-vazelin.gd::GDScript::4317607444734276500::1741433726::0::1::::<>Node2D<><>0<>0<><>::
+area_2d.gd::GDScript::710969262786319198::1741516314::0::1::::<>Area2D<><>0<>0<><>::
+baklava.gd::GDScript::3202376629414115194::1741517429::0::1::::<>Node2D<><>0<>0<><>::
+bant.gd::GDScript/GDScript::8545708892908883438::1741470201::0::1::::<>Node2D<><>0<>0<><>::
+dondurma.gd::GDScript::7107619283064461135::1741517628::0::1::::<>Node2D<><>0<>0<><>::
+dondurma_topu.gd::GDScript::28641967577894552::1741505745::0::1::::<>Node2D<><>0<>0<><>::
+dondurma_topu.tscn::PackedScene::7206753829161134780::1741517431::0::1::::<><><>0<>0<><>::uid://n4y10pq1urw::::res://Scenes/dondurma_topu.gd<>uid://cp3bmi423f4gn::::res://Assets/MiniGames/Dondurma/Adsız_Resim-1 2.png<>uid://bf7k31p27ojhn::::res://Assets/MiniGames/Dondurma/Adsız_Resim-2 2.png<>uid://lcmrvih12gxl::::res://Scenes/mouse_on_sprite.gd<>uid://cpkv86n1conp6::::res://Assets/MiniGames/Dondurma/Adsız_Resim-3 2.png<>uid://lg3vjjl3dk2y::::res://Assets/MiniGames/Dondurma/Adsız_Resim-4 2.png<>uid://conawmuimhbgb::::res://Assets/MiniGames/Dondurma/Adsız_Resim-5 2.png
+draggable_object.tscn::PackedScene::5858817705342940571::1741517628::0::1::::<><><>0<>0<><>::uid://blviw7st6y6os::::res://Scenes/baklava.gd<>uid://ddbty680kwg61::::res://Assets/MiniGames/Baklava/Baklava alt.png<>uid://kentbhxnf431::::res://Scenes/area_2d.gd<>uid://b3t8ythsrmyg3::::res://Assets/MiniGames/Baklava/Baklava orta.png<>uid://c8i8plsh4sepb::::res://Scenes/dondurma.gd<>uid://d2okyyqclu1kf::::res://Assets/MiniGames/Baklava/Baklava ust.png<>uid://38wno2iew54s::::res://Assets/MiniGames/Dondurma/dondurma.png<>uid://dm2ymvvknu5sx::::res://Assets/SFX/Shlop2.mp3<>uid://b2rqmms77t8hk::::res://Scenes/vazelin.gd<>uid://dgh6i627pih3m::::res://Assets/MiniGames/Vazelin/açılma_animasyon/Adsız_Resim-1 2.png<>uid://cej5wos51y2qe::::res://Assets/SFX/Shlop1.mp3<>uid://nrj3d143jdoo::::res://Scenes/tarçın.gd<>uid://badtfllr4sfh7::::res://Assets/MiniGames/Vazelin/açılma_animasyon/Adsız_Resim-2 2.png<>uid://dxu8i5yqe7nhd::::res://Assets/MiniGames/Vazelin/açılma_animasyon/Adsız_Resim-3 2.png<>uid://rmi4jrcxnare::::res://Assets/defter.png<>uid://6o1w8k3uedw1::::res://Assets/MiniGames/Vazelin/açılma_animasyon/Adsız_Resim-4 2.png<>uid://bq75xg10k1xq6::::res://Assets/MiniGames/Vazelin/açılma_animasyon/Adsız_Resim-5 2.png<>uid://c8d4ayn0kwjn3::::res://Scenes/ajanda.gd<>uid://dehrmjddyvk5o::::res://Assets/MiniGames/Vazelin/açılma_animasyon/Adsız_Resim-6 2.png<>uid://lidiyaxm6vmo::::res://Assets/El.png<>uid://b5g0n6yygvy42::::res://Assets/MiniGames/Vazelin/vazelin_açık.png<>uid://sxjcdr1tiwai::::res://Assets/MiniGames/Vazelin/bulamaç.png<>uid://cnw8akarupicd::::res://Assets/SFX/KapakAçma.mp3<>uid://dc034scohs2o1::::res://Assets/MiniGames/Tarçın/0.png<>uid://cmua6t4py8cmu::::res://Assets/MiniGames/Tarçın/1.png<>uid://c3c5estf4fysq::::res://Assets/SFX/Krem.mp3<>uid://cnsvhd3txvf6g::::res://Assets/MiniGames/Tarçın/2.png<>uid://dr8d4x8l4uvle::::res://Assets/MiniGames/Tarçın/3.png<>uid://bqpq0ctlvinan::::res://Assets/SFX/Shaker.mp3<>uid://de8hgvnhx3knk::::res://Scenes/el.gd<>uid://5cei0u3ul021::::res://Assets/MiniGames/Krem/Adsız_Resim-1.png<>uid://cxr7rb8o7sefl::::res://Assets/MiniGames/Krem/Adsız_Resim-2.png<>uid://cxhb8onipkksk::::res://Assets/MiniGames/Krem/Adsız_Resim-3.png<>uid://55umlnncd4a2::::res://Assets/MiniGames/Krem/Adsız_Resim-4.png<>uid://gnhgrgnpn3av::::res://Assets/MiniGames/Krem/Adsız_Resim-5.png<>uid://d4d84mp0teklh::::res://Assets/MiniGames/Krem/Adsız_Resim-6.png
+el.gd::GDScript::7508578748650906588::1741515910::0::1::::<>Node2D<><>0<>0<><>::
+global.gd::GDScript/GDScript::6340121081547789673::1741380135::0::1::::<>Node<><>0<>0<><>::
+kıl_dönmesi.gd::GDScript::5820791202237591742::1741468847::0::1::::<>Node2D<><>0<>0<><>::
+kıl_dönmesi.tscn::PackedScene::3412406200023946877::1741517431::0::1::::<><><>0<>0<><>::uid://co6vt0i0yqqoc::::res://Scenes/kıl_dönmesi.gd<>uid://dt0utu6mlceoc::::res://Scenes/bant.gd<>uid://kentbhxnf431::::res://Scenes/area_2d.gd<>uid://ddnhxcnrs47ph::::res://Scenes/lokumlar.gd<>uid://dfyiyclt7xn3b::::res://Assets/MiniGames/Lokumlar/yeşil_lokum.png<>uid://b4g5pae5ouuep::::res://Scenes/lokum.gd<>uid://byus4mgf5h7hm::::res://Assets/MiniGames/Lokumlar/sarı_lokum.png<>uid://lcmrvih12gxl::::res://Scenes/mouse_on_sprite.gd<>uid://bcuwayo2bow3u::::res://Assets/MiniGames/Lokumlar/pembe_lokum.png<>uid://bwsx0ux82bhfa::::res://Scenes/pudra.gd<>uid://cpdvrq3abcy1n::::res://Scenes/limon.gd<>uid://bgrs77vdd1eyy::::res://Assets/MiniGames/Limon/Limon.png<>uid://rmi4jrcxnare::::res://Assets/defter.png<>uid://c8d4ayn0kwjn3::::res://Scenes/ajanda.gd<>uid://cnbya4kffimpc::::res://Assets/MiniGames/PudraŞekeri/pudra_yığın.png<>uid://cxlbdac1nw006::::res://Assets/sonic-guy.png
+limon.gd::GDScript::5833173454192915713::1741470140::0::1::::<>Node2D<><>0<>0<><>::
+lokum.gd::GDScript::4436131719973764647::1741463714::0::1::::<>Sprite2D<><>0<>0<><>::
+lokumlar.gd::GDScript::7397131710932146541::1741470133::0::1::::<>Node2D<><>0<>0<><>::
+lokum_alan.gd::GDScript::4146167101833446440::1741462951::0::1::::<>RefCounted<><>0<>0<><>::
+mouse_on_sprite.gd::GDScript::776966113638706569::1741464167::0::1::::<>Area2D<><>0<>0<><>::
+pudra.gd::GDScript::3969176266517142622::1741475285::0::1::::<>Node2D<><>0<>0<><>::
+tarçın.gd::GDScript::948146043368040094::1741517043::0::1::::<>Node2D<><>0<>0<><>::
+tedavi_scenes.tscn::PackedScene::5103618851758114291::1741517430::0::1::::<><><>0<>0<><>::uid://cpqb4vujhot7p::::res://Scenes/draggable_object.tscn<>uid://bou83jjpxxd2t::::res://Scenes/kıl_dönmesi.tscn
+vazelin.gd::GDScript::4317607444734276500::1741517043::0::1::::<>Node2D<><>0<>0<><>::

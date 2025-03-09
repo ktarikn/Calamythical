@@ -1,3 +1,4 @@
 extends Node2D
 
-var splash_counter = 20
+var max_counter = 20
+var splash_counter = 0

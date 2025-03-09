@@ -8,31 +8,37 @@ extends Node2D
 @onready var main_scene = $".."
 @onready var cpu_particles_2d = $CPUParticles2D
 @onready var tarçın_alan = $"../El/TarçınAlan"
+@onready var audio = $AudioStreamPlayer2D
 
-var mini_game_state = 1
+var mini_game_state = 0
 var mouse_on_hand = false
 var tarçın_amount = 0
 var mouse_vel
 
-func _input(_event):
+func _process(_delta):
 	if area_2d.mini_game_on:
 		instruction.set_text("\"Sol Tıka\" basarak aşağı salla")
 		match mini_game_state:
 			0:
 				if Input.is_action_pressed("tarçın_dökme"):
-					set_rotation_degrees(-120)
 					mouse_vel = Input.get_last_mouse_velocity()
 					if mouse_vel.y > 500:
-						cpu_particles_2d.emitting = true
+						if sprite_2d.frame == 2:
+							cpu_particles_2d.emitting = true
+						if not audio.playing:
+							audio.pitch_scale = 0.95 + randf()*0.1
+							audio.play()
+						sprite_2d.play("dökülme")
 						if area_2d in tarçın_alan.get_overlapping_areas():
 							tarçın_amount += 0.001
-							print(tarçın_amount)
 					if tarçın_amount > 0.32:
 						mini_game_state += 1
+						audio.stop()
+						sprite_2d.play("default")
 				else:
-					set_rotation_degrees(0)
+					audio.play()
+					sprite_2d.play("default")
 			1: # END STATE
-				set_rotation_degrees(0)
 				area_2d.set_holding(false)
 				area_2d.returning = true
 				area_2d.mini_game_on = false

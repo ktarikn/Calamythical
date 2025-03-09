@@ -1,0 +1,278 @@
+[gd_scene load_steps=27 format=3 uid="uid://bou83jjpxxd2t"]
+
+[ext_resource type="Script" uid="uid://co6vt0i0yqqoc" path="res://Scenes/kıl_dönmesi.gd" id="1_64miv"]
+[ext_resource type="Script" uid="uid://dt0utu6mlceoc" path="res://Scenes/bant.gd" id="2_uaxvu"]
+[ext_resource type="Script" uid="uid://kentbhxnf431" path="res://Scenes/area_2d.gd" id="3_mi1no"]
+[ext_resource type="Script" uid="uid://ddnhxcnrs47ph" path="res://Scenes/lokumlar.gd" id="5_is0ch"]
+[ext_resource type="Texture2D" uid="uid://dfyiyclt7xn3b" path="res://Assets/MiniGames/Lokumlar/yeşil_lokum.png" id="6_tqmqe"]
+[ext_resource type="Script" uid="uid://b4g5pae5ouuep" path="res://Scenes/lokum.gd" id="7_mi1no"]
+[ext_resource type="Texture2D" uid="uid://byus4mgf5h7hm" path="res://Assets/MiniGames/Lokumlar/sarı_lokum.png" id="7_qpmlp"]
+[ext_resource type="Script" uid="uid://lcmrvih12gxl" path="res://Scenes/mouse_on_sprite.gd" id="7_uaxvu"]
+[ext_resource type="Texture2D" uid="uid://bcuwayo2bow3u" path="res://Assets/MiniGames/Lokumlar/pembe_lokum.png" id="8_ne6gm"]
+[ext_resource type="Script" uid="uid://bwsx0ux82bhfa" path="res://Scenes/pudra.gd" id="11_l8u1n"]
+[ext_resource type="Script" uid="uid://cpdvrq3abcy1n" path="res://Scenes/limon.gd" id="11_mi1no"]
+[ext_resource type="Texture2D" uid="uid://bgrs77vdd1eyy" path="res://Assets/MiniGames/Limon/Limon.png" id="12_mi1no"]
+[ext_resource type="Texture2D" uid="uid://rmi4jrcxnare" path="res://Assets/defter.png" id="13_ejyw5"]
+[ext_resource type="Script" uid="uid://c8d4ayn0kwjn3" path="res://Scenes/ajanda.gd" id="14_ae74f"]
+[ext_resource type="Texture2D" uid="uid://cnbya4kffimpc" path="res://Assets/MiniGames/PudraŞekeri/pudra_yığın.png" id="14_mi1no"]
+[ext_resource type="Texture2D" uid="uid://cxlbdac1nw006" path="res://Assets/sonic-guy.png" id="17_mi1no"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_67xwk"]
+size = Vector2(125, 57.6087)
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_b4swf"]
+size = Vector2(496.3, 377.781)
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_uaxvu"]
+size = Vector2(481.481, 392.593)
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_mi1no"]
+size = Vector2(481.482, 400)
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_7jd10"]
+size = Vector2(113, 88)
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_g6vhs"]
+size = Vector2(103, 110)
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_du65o"]
+size = Vector2(73, 99)
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_gq1m3"]
+size = Vector2(750.002, 1020.84)
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_wbwlq"]
+size = Vector2(486.338, 20)
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_utpev"]
+size = Vector2(868, 668)
+
+[node name="Kıl Dönmesi" type="Node2D"]
+script = ExtResource("1_64miv")
+
+[node name="KoliBandı" type="Node2D" parent="."]
+position = Vector2(97, 109)
+script = ExtResource("2_uaxvu")
+
+[node name="Area2D" type="Area2D" parent="KoliBandı"]
+position = Vector2(2, 1)
+scale = Vector2(0.720001, 0.92)
+script = ExtResource("3_mi1no")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="KoliBandı/Area2D"]
+position = Vector2(10.5, 9.23914)
+shape = SubResource("RectangleShape2D_67xwk")
+
+[node name="Sprite2D" type="Sprite2D" parent="KoliBandı"]
+position = Vector2(9.00001, 8.99999)
+scale = Vector2(0.158462, 0.158462)
+
+[node name="Lokumlar" type="Node2D" parent="."]
+position = Vector2(114, 246)
+script = ExtResource("5_is0ch")
+
+[node name="Yeşil" type="Sprite2D" parent="Lokumlar"]
+position = Vector2(-12, -7.99999)
+scale = Vector2(0.134999, 0.134999)
+texture = ExtResource("6_tqmqe")
+offset = Vector2(600.005, 474.078)
+script = ExtResource("7_mi1no")
+
+[node name="Area2D" type="Area2D" parent="Lokumlar/Yeşil"]
+script = ExtResource("7_uaxvu")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Lokumlar/Yeşil/Area2D"]
+position = Vector2(-2.38419e-07, -14.8149)
+shape = SubResource("RectangleShape2D_b4swf")
+
+[node name="Sarı" type="Sprite2D" parent="Lokumlar"]
+position = Vector2(34, 5)
+scale = Vector2(0.135, 0.135)
+texture = ExtResource("7_qpmlp")
+offset = Vector2(573.584, 469.88)
+script = ExtResource("7_mi1no")
+
+[node name="Area2D" type="Area2D" parent="Lokumlar/Sarı"]
+script = ExtResource("7_uaxvu")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Lokumlar/Sarı/Area2D"]
+position = Vector2(-25.9259, -18.5187)
+shape = SubResource("RectangleShape2D_uaxvu")
+
+[node name="Pembe" type="Sprite2D" parent="Lokumlar"]
+position = Vector2(-4, 22)
+scale = Vector2(0.135, 0.135)
+texture = ExtResource("8_ne6gm")
+offset = Vector2(588.399, 447.658)
+script = ExtResource("7_mi1no")
+
+[node name="Area2D" type="Area2D" parent="Lokumlar/Pembe"]
+position = Vector2(-7.40741, -29.6294)
+script = ExtResource("7_uaxvu")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Lokumlar/Pembe/Area2D"]
+position = Vector2(-3.70392, -7.40747)
+shape = SubResource("RectangleShape2D_mi1no")
+
+[node name="Area2D" type="Area2D" parent="Lokumlar"]
+position = Vector2(6, 6)
+script = ExtResource("3_mi1no")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Lokumlar/Area2D"]
+position = Vector2(1, -1)
+shape = SubResource("RectangleShape2D_7jd10")
+
+[node name="Limon" type="Node2D" parent="."]
+position = Vector2(103, 407)
+script = ExtResource("11_mi1no")
+
+[node name="Sprite2D" type="Sprite2D" parent="Limon"]
+position = Vector2(14, 6.99999)
+scale = Vector2(0.493333, 0.493333)
+texture = ExtResource("12_mi1no")
+offset = Vector2(12.1622, 70.946)
+
+[node name="Area2D" type="Area2D" parent="Limon"]
+script = ExtResource("3_mi1no")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Limon/Area2D"]
+position = Vector2(9.5, 6)
+scale = Vector2(0.839999, 0.88)
+shape = SubResource("RectangleShape2D_g6vhs")
+
+[node name="CPUParticles2D" type="CPUParticles2D" parent="Limon"]
+position = Vector2(28, 9)
+emitting = false
+amount = 16
+lifetime = 0.48
+one_shot = true
+explosiveness = 0.83
+initial_velocity_min = 100.0
+initial_velocity_max = 100.0
+scale_amount_min = 1.8
+scale_amount_max = 1.8
+color = Color(0.808215, 0.807703, 0.354361, 1)
+
+[node name="PudraŞekeri" type="Node2D" parent="."]
+position = Vector2(105, 538)
+script = ExtResource("11_l8u1n")
+
+[node name="Sprite2D" type="Sprite2D" parent="PudraŞekeri"]
+position = Vector2(10, 12)
+scale = Vector2(0.104246, 0.104246)
+texture = ExtResource("14_mi1no")
+
+[node name="Area2D" type="Area2D" parent="PudraŞekeri"]
+script = ExtResource("3_mi1no")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="PudraŞekeri/Area2D"]
+position = Vector2(4, 20)
+scale = Vector2(2, 1)
+shape = SubResource("RectangleShape2D_du65o")
+
+[node name="CPUParticles2D" type="CPUParticles2D" parent="PudraŞekeri"]
+position = Vector2(-26, -37)
+emitting = false
+amount = 40
+lifetime = 0.3
+one_shot = true
+explosiveness = 0.82
+emission_shape = 1
+emission_sphere_radius = 1.0
+direction = Vector2(-1, 0)
+initial_velocity_min = 161.62
+initial_velocity_max = 202.02
+scale_amount_min = 1.5
+scale_amount_max = 1.5
+color = Color(0.708727, 0.346221, 0.103903, 1)
+
+[node name="Ajanda" type="Node2D" parent="."]
+position = Vector2(1138, 279)
+scale = Vector2(0.439999, 0.439999)
+
+[node name="Sprite2D" type="Sprite2D" parent="Ajanda"]
+position = Vector2(259, 68)
+texture = ExtResource("13_ejyw5")
+
+[node name="Area2D" type="Area2D" parent="Ajanda"]
+script = ExtResource("14_ae74f")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Ajanda/Area2D"]
+position = Vector2(250, 60.4171)
+shape = SubResource("RectangleShape2D_gq1m3")
+
+[node name="AjandaText" type="RichTextLabel" parent="Ajanda"]
+offset_left = -29.5457
+offset_top = -404.546
+offset_right = 539.454
+offset_bottom = 45.4536
+scale = Vector2(1.13498, 1.13498)
+mouse_filter = 2
+theme_override_colors/default_color = Color(0, 0, 0, 1)
+theme_override_font_sizes/bold_italics_font_size = 45
+theme_override_font_sizes/normal_font_size = 32
+text = "MALZEMELER:
+BAKLAVA
+DONDURMA
+VAZELİN
+TARÇIN
+
+1- VAZELİNİ UYGULA
+2- TARÇINI DÖK
+3- DONDURMAYI BULA
+4- BAKLAVANIN KATLARINI YAPIŞTIR"
+fit_content = true
+metadata/_edit_use_anchors_ = true
+
+[node name="KuyrukSokumu" type="Node2D" parent="."]
+z_index = -1
+position = Vector2(547, 330)
+
+[node name="Sprite2D" type="Sprite2D" parent="KuyrukSokumu"]
+clip_children = 2
+scale = Vector2(0.198204, 0.198204)
+texture = ExtResource("17_mi1no")
+
+[node name="Area2D" type="Area2D" parent="KuyrukSokumu"]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="KuyrukSokumu/Area2D"]
+position = Vector2(31, 5)
+rotation = 3.14159
+scale = Vector2(0.352583, 6.15258)
+shape = SubResource("RectangleShape2D_wbwlq")
+
+[node name="MasaSınır" type="Area2D" parent="."]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="MasaSınır"]
+position = Vector2(727, 325)
+shape = SubResource("RectangleShape2D_utpev")
+
+[node name="Instruction" type="RichTextLabel" parent="."]
+offset_left = 304.0
+offset_top = 62.0
+offset_right = 435.0
+offset_bottom = 161.0
+text = "\"Açmak için E\""
+metadata/_edit_use_anchors_ = true
+
+[node name="pudra_sprite" type="Sprite2D" parent="."]
+position = Vector2(115, 552)
+scale = Vector2(0.353028, 0.353028)
+texture = ExtResource("14_mi1no")
+
+[connection signal="mouse_entered" from="KoliBandı/Area2D" to="KoliBandı/Area2D" method="_on_mouse_entered"]
+[connection signal="mouse_exited" from="KoliBandı/Area2D" to="KoliBandı/Area2D" method="_on_mouse_exited"]
+[connection signal="mouse_entered" from="Lokumlar/Yeşil/Area2D" to="Lokumlar/Yeşil/Area2D" method="_on_mouse_entered"]
+[connection signal="mouse_exited" from="Lokumlar/Yeşil/Area2D" to="Lokumlar/Yeşil/Area2D" method="_on_mouse_exited"]
+[connection signal="mouse_entered" from="Lokumlar/Sarı/Area2D" to="Lokumlar/Sarı/Area2D" method="_on_mouse_entered"]
+[connection signal="mouse_exited" from="Lokumlar/Sarı/Area2D" to="Lokumlar/Sarı/Area2D" method="_on_mouse_exited"]
+[connection signal="mouse_entered" from="Lokumlar/Pembe/Area2D" to="Lokumlar/Pembe/Area2D" method="_on_mouse_entered"]
+[connection signal="mouse_exited" from="Lokumlar/Pembe/Area2D" to="Lokumlar/Pembe/Area2D" method="_on_mouse_exited"]
+[connection signal="mouse_entered" from="Lokumlar/Area2D" to="Lokumlar/Area2D" method="_on_mouse_entered"]
+[connection signal="mouse_exited" from="Lokumlar/Area2D" to="Lokumlar/Area2D" method="_on_mouse_exited"]
+[connection signal="mouse_entered" from="Limon/Area2D" to="Limon/Area2D" method="_on_mouse_entered"]
+[connection signal="mouse_exited" from="Limon/Area2D" to="Limon/Area2D" method="_on_mouse_exited"]
+[connection signal="mouse_entered" from="PudraŞekeri/Area2D" to="PudraŞekeri/Area2D" method="_on_mouse_entered"]
+[connection signal="mouse_exited" from="PudraŞekeri/Area2D" to="PudraŞekeri/Area2D" method="_on_mouse_exited"]
+[connection signal="mouse_entered" from="Ajanda/Area2D" to="Ajanda/Area2D" method="_on_mouse_entered"]
+[connection signal="mouse_exited" from="Ajanda/Area2D" to="Ajanda/Area2D" method="_on_mouse_exited"]

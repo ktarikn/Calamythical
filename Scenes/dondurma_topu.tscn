@@ -1,26 +1,73 @@
-[gd_scene load_steps=5 format=3 uid="uid://daxaghey6mjce"]
+[gd_scene load_steps=10 format=3 uid="uid://daxaghey6mjce"]
 
 [ext_resource type="Script" uid="uid://n4y10pq1urw" path="res://Scenes/dondurma_topu.gd" id="1_e3cpl"]
-[ext_resource type="Texture2D" uid="uid://hvu6jnutl436" path="res://Assets/MiniGames/Dondurma/dondurma_topu.png" id="1_e7711"]
-[ext_resource type="Script" uid="uid://c8d4ayn0kwjn3" path="res://Scenes/area_2d.gd" id="2_xr7ex"]
+[ext_resource type="Texture2D" uid="uid://cp3bmi423f4gn" path="res://Assets/MiniGames/Dondurma/Adsız_Resim-1 2.png" id="2_i24dj"]
+[ext_resource type="Texture2D" uid="uid://bf7k31p27ojhn" path="res://Assets/MiniGames/Dondurma/Adsız_Resim-2 2.png" id="3_4rgk2"]
+[ext_resource type="Script" uid="uid://lcmrvih12gxl" path="res://Scenes/mouse_on_sprite.gd" id="3_e3cpl"]
+[ext_resource type="Texture2D" uid="uid://cpkv86n1conp6" path="res://Assets/MiniGames/Dondurma/Adsız_Resim-3 2.png" id="4_103d7"]
+[ext_resource type="Texture2D" uid="uid://lg3vjjl3dk2y" path="res://Assets/MiniGames/Dondurma/Adsız_Resim-4 2.png" id="5_n80y3"]
+[ext_resource type="Texture2D" uid="uid://conawmuimhbgb" path="res://Assets/MiniGames/Dondurma/Adsız_Resim-5 2.png" id="6_tphja"]
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_wqwg5"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("2_i24dj")
+}, {
+"duration": 1.0,
+"texture": ExtResource("3_4rgk2")
+}, {
+"duration": 1.0,
+"texture": ExtResource("4_103d7")
+}, {
+"duration": 1.0,
+"texture": ExtResource("5_n80y3")
+}, {
+"duration": 1.0,
+"texture": ExtResource("6_tphja")
+}],
+"loop": true,
+"name": &"default",
+"speed": 5.0
+}]
 
 [sub_resource type="CircleShape2D" id="CircleShape2D_mewrj"]
-radius = 44.0114
+radius = 53.58
 
 [node name="DondurmaTopu" type="Node2D"]
-z_index = 5
+z_index = 1
+scale = Vector2(1.792, 2.03636)
 script = ExtResource("1_e3cpl")
 
-[node name="Sprite2D" type="Sprite2D" parent="."]
-scale = Vector2(0.3, 0.3)
-texture = ExtResource("1_e7711")
+[node name="Sprite2D" type="AnimatedSprite2D" parent="."]
+position = Vector2(-0.999998, 3)
+scale = Vector2(0.162611, 0.162611)
+sprite_frames = SubResource("SpriteFrames_wqwg5")
+offset = Vector2(-11.6735, 15.9046)
 
 [node name="Area2D" type="Area2D" parent="."]
-script = ExtResource("2_xr7ex")
+script = ExtResource("3_e3cpl")
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="Area2D"]
-position = Vector2(-1, 5)
+position = Vector2(-1, 9)
+scale = Vector2(1.16, 0.88)
 shape = SubResource("CircleShape2D_mewrj")
+
+[node name="CPUParticles2D" type="CPUParticles2D" parent="."]
+position = Vector2(0, -12)
+emitting = false
+amount = 30
+lifetime = 0.53
+one_shot = true
+speed_scale = 5.0
+explosiveness = 0.77
+lifetime_randomness = 0.52
+direction = Vector2(-1, -1)
+spread = 129.51
+initial_velocity_min = 191.92
+initial_velocity_max = 191.92
+scale_amount_min = 2.3
+scale_amount_max = 2.3
 
 [connection signal="mouse_entered" from="Area2D" to="Area2D" method="_on_mouse_entered"]
 [connection signal="mouse_exited" from="Area2D" to="Area2D" method="_on_mouse_exited"]
